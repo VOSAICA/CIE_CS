@@ -42,6 +42,8 @@ def display(b):  # Print the board after change
         print("")
 
 
+# You may write this part with DFS,
+# but there is an old Chinese saying called: 杀鸡焉用牛刀
 def win_horizon(b):
     for i in range(3, 9):
         for j in range(0, 7):
